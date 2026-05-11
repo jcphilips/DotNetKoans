@@ -84,7 +84,9 @@ broken line";
     //the hardcoded escape sequence. A much better way
     //(We'll handle concatenation and better ways of that in a bit)
     var literalString = "I" + System.Environment.NewLine + "am a" + System.Environment.NewLine + "broken line";
-    var verbatimString = FILL_ME_IN;
+    var verbatimString = @"I
+am a
+broken line";
     Assert.Equal(literalString, verbatimString);
   }
 
