@@ -183,7 +183,7 @@ broken line";
   {
     //You can modify the value inserted into the result
     var str = string.Format("{0,3:}", "x");
-    Assert.Equal(FILL_ME_IN, str);
+    Assert.Equal("  x", str);
   }
 
   [Step(16)]
