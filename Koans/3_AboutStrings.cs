@@ -94,7 +94,7 @@ broken line";
   public void PlusWillConcatenateTwoStrings()
   {
     var str = "Hello, " + "World";
-    Assert.Equal(FILL_ME_IN, str);
+    Assert.Equal("Hello, World", str);
   }
 
   [Step(9)]
