@@ -52,7 +52,7 @@ public class AboutBooleans : Koan
 
     foreach (var otherType in otherTypes)
     {
-      Assert.True(otherType is bool); // no other type can cast to bool
+      Assert.True(otherType is not bool); // no other type can cast to bool
     }
   }
 }
