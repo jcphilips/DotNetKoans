@@ -31,7 +31,7 @@ public class AboutStrings : Koan
   public void CreateAStringWhichContainsDoubleQuotes()
   {
     var str = "Hello, \"World\"";
-    Assert.Equal(FILL_ME_IN, str.Length);
+    Assert.Equal(14, str.Length);
   }
 
   [Step(4)]
