@@ -33,7 +33,7 @@ public class AboutAsserts : Koan
   public void ABetterWayOfAssertingEquality()
   {
     var expectedValue = 3;
-    var actualValue = 1 + 1;
+    var actualValue = 1 + 2;
     Assert.Equal(expectedValue, actualValue);
   }
 
