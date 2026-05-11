@@ -190,7 +190,7 @@ broken line";
   public void StringsCanBePaddedToTheRight()
   {
     var str = string.Format("{0,-3:}", "x");
-    Assert.Equal(FILL_ME_IN, str);
+    Assert.Equal("x  ", str);
   }
 
   [Step(17)]
