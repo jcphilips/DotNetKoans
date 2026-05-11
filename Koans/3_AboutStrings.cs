@@ -24,7 +24,7 @@ public class AboutStrings : Koan
   public void SingleQuotedStringsAreNotStrings()
   {
     var str = 'H';
-    Assert.Equal(typeof(FillMeIn), str.GetType());
+    Assert.Equal(typeof(char), str.GetType());
   }
 
   [Step(3)]
