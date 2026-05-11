@@ -204,7 +204,7 @@ broken line";
   public void CurrencyDesignatorsCanBeAdded()
   {
     var str = string.Format("{0:c}", 123456);
-    Assert.Equal(FILL_ME_IN, str);
+    Assert.Equal("$123,456.00", str);
   }
 
   [Step(19)]
