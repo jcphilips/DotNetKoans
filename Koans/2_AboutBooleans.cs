@@ -22,7 +22,7 @@ public class AboutBooleans : Koan
   public void FalseIsTreatedAsFalse()
   {
     // false is false
-    Assert.Equal(false, FILL_ME_IN);
+    Assert.Equal(false, false);
   }
 
   [Step(3)]
