@@ -103,8 +103,8 @@ broken line";
     var strA = "Hello, ";
     var strB = "World";
     var fullString = strA + strB;
-    Assert.Equal(FILL_ME_IN, strA);
-    Assert.Equal(FILL_ME_IN, strB);
+    Assert.Equal("Hello, ", strA);
+    Assert.Equal("World", strB);
   }
 
   [Step(10)]
@@ -113,8 +113,8 @@ broken line";
     var strA = "Hello, ";
     var strB = "World";
     strA += strB;
-    Assert.Equal(FILL_ME_IN, strA);
-    Assert.Equal(FILL_ME_IN, strB);
+    Assert.Equal("Hello, World", strA);
+    Assert.Equal("World", strB);
   }
 
   [Step(11)]
