@@ -211,7 +211,7 @@ broken line";
   public void NumberOfDisplayedDecimalsCanBeControlled()
   {
     var str = string.Format("{0:.##}", 12.3456);
-    Assert.Equal(FILL_ME_IN, str);
+    Assert.Equal("12.35", str);
   }
 
   [Step(20)]
