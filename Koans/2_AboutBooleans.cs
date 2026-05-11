@@ -36,7 +36,7 @@ public class AboutBooleans : Koan
   public void BoolIsAReservedWordOfSystemBoolean()
   {
     // bool is a Alias of System.Boolean
-    Assert.Equal(typeof(System.Boolean), typeof(FillMeIn));
+    Assert.Equal(typeof(System.Boolean), typeof(bool));
   }
 
   [Step(5)]
