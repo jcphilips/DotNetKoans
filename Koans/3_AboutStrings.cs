@@ -156,7 +156,7 @@ broken line";
     strBuilder.Append("lazy ");
     strBuilder.Append("dog.");
     var str = strBuilder.ToString();
-    Assert.Equal(FILL_ME_IN, str);
+    Assert.Equal("The quick brown fox jumped over the lazy dog.", str);
 
     //When doing lots and lots of concatenation in a loop, StringBuilder will be more efficient than concatenation using the +-operator.
     //However, even in the above example simple concatenation would actually be more efficient.
