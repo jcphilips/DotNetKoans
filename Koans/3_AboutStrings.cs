@@ -64,8 +64,8 @@ broken line";
 
     // Make sure to use a literal string.
     // Escaped characters in verbatim strings are covered later.
-    var literalString = FILL_ME_IN;
-    Assert.Equal(FILL_ME_IN, verbatimString.Length);
+    var literalString = "I\nam a\nbroken line";
+    Assert.Equal(literalString.Length, verbatimString.Length);
 
     // For verbatim strings, the newline character used will depend on
     // whether the source file uses a \r\n or a \n ending and they have
