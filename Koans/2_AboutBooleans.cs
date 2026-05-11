@@ -29,7 +29,7 @@ public class AboutBooleans : Koan
   public void TrueIsNotFalse()
   {
     // true is not false
-    Assert.NotEqual(true, FILL_ME_IN);
+    Assert.NotEqual(true, false);
   }
 
   [Step(4)]
