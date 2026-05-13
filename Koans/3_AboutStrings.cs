@@ -225,7 +225,7 @@ broken line";
   public void BuiltInDateFormatters()
   {
     var str = string.Format("{0:t}", DateTime.Parse("12/16/2011 2:35:02 PM", CultureInfo.InvariantCulture));
-    Assert.Equal(FILL_ME_IN, str);
+    Assert.Equal("2:35 PM", str);
   }
 
   [Step(22)]
