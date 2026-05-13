@@ -289,7 +289,7 @@ broken line";
   {
     Assert.Equal(97, 'a');
     Assert.Equal(98, 'b');
-    Assert.Equal(FILL_ME_IN, 'b' == ('a' + 1));
+    Assert.Equal(true, 'b' == ('a' + 1));
   }
 
   [Step(30)]
