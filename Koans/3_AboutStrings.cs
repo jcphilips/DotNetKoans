@@ -259,7 +259,7 @@ broken line";
   public void VerbatimStringsDoNotInterpretEscapeCharacters()
   {
     var str = @"\n";
-    Assert.Equal(FILL_ME_IN, str.Length);
+    Assert.Equal(2, str.Length);
   }
 
   [Step(26)]
