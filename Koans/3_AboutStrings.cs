@@ -334,6 +334,6 @@ broken line";
   public void InterpolationSupportsFormatAsWell()
   {
     var str = $"{DateTime.Parse("12/16/2011 2:35:02 PM", CultureInfo.InvariantCulture):t m}";
-    Assert.Equal(FILL_ME_IN, str);
+    Assert.Equal("P 35", str);
   }
 }
