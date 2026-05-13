@@ -327,7 +327,7 @@ broken line";
     var name = "John Doe";
     var age = 33;
     var str = $"Mr. {name} is {age} years old";
-    Assert.Equal(FILL_ME_IN, str);
+    Assert.Equal("Mr. John Doe is 33 years old", str);
   }
 
   [Step(34)]
