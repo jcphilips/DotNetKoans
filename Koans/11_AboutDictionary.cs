@@ -42,9 +42,10 @@ public class AboutDictionary : Koan
     dict.Add("United Kingdom", "London");
     dict.Add("Poland", "Warsaw");
     dict.Add("Japan", "Tokyo");
+    dict.Add("Jeff", "Bezos");
 
     var key = "Jeff";
-    Assert.True(true, dict.ContainsKey(key).ToString()); // How to make this statement true?          
+    Assert.True("True" == dict.ContainsKey(key).ToString()); // How to make this statement true?          
   }
 
   //Check if a value exists in Dictionary.
