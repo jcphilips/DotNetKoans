@@ -30,7 +30,7 @@ public class AboutDictionary : Koan
     dict.Add("Japan", "Tokyo");
 
     var key = "Japan";
-    Assert.Equal(FILL_ME_IN, dict[key]); // What is the value?            
+    Assert.Equal("Tokyo", dict[key]); // What is the value?            
   }
 
   //Check if a key exists in Dictionary.
