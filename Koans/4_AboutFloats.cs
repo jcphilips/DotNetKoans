@@ -73,8 +73,8 @@ public class AboutFloats : Koan
     var sevenDigits = 0.9999999f;
     var eightDigits = 0.99999999f;
 
-    Assert.Equal(sevenDigits, FILL_ME_IN);
-    Assert.Equal(eightDigits, FILL_ME_IN);
+    Assert.Equal(sevenDigits, 0.9999999f);
+    Assert.Equal(eightDigits, 1.0f);
 
     //Remember how floats are "Single Precision"?
     //What does that actually mean?
