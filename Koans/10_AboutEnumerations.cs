@@ -100,7 +100,7 @@ public class AboutEnumerations : Koan
 		and incrementing by one. Perhaps you want them incrementing by 100.
 		*/
     var logLevel = LogLevel.Verbose;
-    Assert.Equal(FILL_ME_IN, (int)logLevel);
+    Assert.Equal(300, (int)logLevel);
   }
 
   [Step(4)]
