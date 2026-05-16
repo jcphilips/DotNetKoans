@@ -99,7 +99,7 @@ public class AboutFloats : Koan
   {
     var f = 0.3f + 0.6f;
 
-    Assert.True(f == 0.9f);
+    Assert.True(f != 0.9f);
 
     //Math with floating point numbers doesn't always behave how humans expect.
     //This is because floating point numbers are stored in binary,
