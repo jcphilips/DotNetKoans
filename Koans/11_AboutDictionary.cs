@@ -99,7 +99,7 @@ public class AboutDictionary : Koan
     if (dict.ContainsKey(keyToRemove))
       dict.Remove(keyToRemove);
 
-    Assert.True(dict.ContainsKey(keyToRemove)); // How to make this statement true?          
+    Assert.True(!dict.ContainsKey(keyToRemove)); // How to make this statement true?          
   }
 
 }
