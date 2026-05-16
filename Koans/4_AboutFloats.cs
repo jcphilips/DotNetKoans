@@ -30,7 +30,7 @@ public class AboutFloats : Koan
   [Step(3)]
   public void FloatsAreSingles()
   {
-    Assert.Equal(typeof(float), typeof(FillMeIn));
+    Assert.Equal(typeof(float), typeof(System.Single));
 
     //.NET doesn't have a type called `float`
     //Instead, it has a "Single Precision Floating Point Number" type:
