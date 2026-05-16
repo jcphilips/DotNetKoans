@@ -55,12 +55,12 @@ public class AboutDecimals : Koan
   public void DecimalsHaveMaximumAndMinimumValues()
   {
     // Even the zen of the decimal has its limits...
-    Assert.Throws(typeof(FillMeIn), () =>
+    Assert.Throws(typeof(System.OverflowException), () =>
     {
       var d = decimal.Parse("79,228,162,514,264,337,593,543,950,336", CultureInfo.InvariantCulture);
     });
 
-    Assert.Throws(typeof(FillMeIn), () =>
+    Assert.Throws(typeof(System.OverflowException), () =>
     {
       var d = decimal.Parse("-79,228,162,514,264,337,593,543,950,336", CultureInfo.InvariantCulture);
     });
