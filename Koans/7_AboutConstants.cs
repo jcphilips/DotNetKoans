@@ -111,7 +111,7 @@ public class AboutConstants : Koan
   public void WhoWinsWithBothNestedAndInheritedConstants()
   {
     var bird = new MyAnimals.Bird();
-    Assert.Equal(FILL_ME_IN, bird.LegsInBird());
+    Assert.Equal(4, bird.LegsInBird());
 
     /* QUESTION: Which has precedence: The constant in the lexical scope,
 		   or the constant from the inheritance hierarchy? */
