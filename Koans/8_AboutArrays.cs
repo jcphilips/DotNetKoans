@@ -77,10 +77,10 @@ public class AboutArrays : Koan
     var array = new[] { 1, 2 };
     var stack = new Stack(array);
     stack.Push("last");
-    Assert.Equal(FILL_ME_IN, stack.ToArray());
+    Assert.Equal(new Object[] { "last", 2, 1 }, stack.ToArray());
     var poppedValue = stack.Pop();
-    Assert.Equal(FILL_ME_IN, poppedValue);
-    Assert.Equal(FILL_ME_IN, stack.ToArray());
+    Assert.Equal("last", poppedValue);
+    Assert.Equal(new Object[] { 2, 1 }, stack.ToArray());
   }
 
   [Step(6)]
