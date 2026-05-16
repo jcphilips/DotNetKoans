@@ -42,11 +42,11 @@ public class AboutDecimals : Koan
     double db = 7.4d;
 
     var result = 0m;
-    //result = d + (FillMeIn) f;
+    result = d + (decimal)f;
 
     Assert.Equal(9.3m, result);
 
-    //result = d + (FillMeIn) db;
+    result = d + (decimal)db;
 
     Assert.Equal(12.5m, result);
   }
