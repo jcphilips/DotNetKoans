@@ -21,7 +21,7 @@ public class AboutNull : Koan
     //Don't be confused by the code below. It is using Anonymous Delegates which we will
     //cover later on. 
     object nothing = null;
-    Assert.Throws(typeof(FillMeIn), delegate () { nothing.ToString(); });
+    Assert.Throws(typeof(System.NullReferenceException), delegate () { nothing.ToString(); });
 
     //What's the message of the exception? What substring or pattern could you test
     //against in order to have a good idea of what the string is?
@@ -31,7 +31,7 @@ public class AboutNull : Koan
     }
     catch (System.Exception ex)
     {
-      Assert.Contains(FILL_ME_IN as string, ex.Message);
+      Assert.Contains("Object reference" as string, ex.Message);
     }
   }
 
