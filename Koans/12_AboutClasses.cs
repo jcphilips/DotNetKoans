@@ -80,7 +80,7 @@ public class AboutClasses : Koan
   [Step(4)]
   public void UseConstructorsToDefineInitialValues()
   {
-    Foo4 foo = default(Foo4);
+    Foo4 foo = new("Bar");
     Assert.Equal("Bar", foo.Bar);
   }
 
