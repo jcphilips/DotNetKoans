@@ -19,7 +19,7 @@ public class AboutFloats : Koan
   {
     float f = 1.5f;
 
-    Assert.Equal(f, FILL_ME_IN);
+    Assert.Equal(f, 1.5);
 
     //Floating Point numbers are able to keep data beyond the decimal point
     //unlike Integers which are whole numbers.
