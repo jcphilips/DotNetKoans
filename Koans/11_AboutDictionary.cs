@@ -78,7 +78,7 @@ public class AboutDictionary : Koan
     var expectedValue = "New Delhi";
 
     //May be you should update this
-    //dict[key] = FILL_ME_IN;
+    dict[key] = expectedValue;
 
     Assert.Equal(expectedValue, dict[key]); // How to make this statement true?          
   }
