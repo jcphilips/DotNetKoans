@@ -94,16 +94,16 @@ public class AboutArrays : Koan
     var list = new LinkedList<string>(array);
 
     list.AddFirst("Say");
-    Assert.Equal(FILL_ME_IN, list.ToArray());
+    Assert.Equal(["Say", "Hello", "World"], list.ToArray());
 
     list.RemoveLast();
-    Assert.Equal(FILL_ME_IN, list.ToArray());
+    Assert.Equal(["Say", "Hello"], list.ToArray());
 
     list.RemoveFirst();
-    Assert.Equal(FILL_ME_IN, list.ToArray());
+    Assert.Equal(["Hello"], list.ToArray());
 
     list.AddAfter(list.Find("Hello"), "World");
-    Assert.Equal(FILL_ME_IN, list.ToArray());
+    Assert.Equal(["Hello", "World"], list.ToArray());
   }
 
 }
