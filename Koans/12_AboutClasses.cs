@@ -66,6 +66,7 @@ public class AboutClasses : Koan
   public void UseAccessorsToReturnInstanceVariables()
   {
     var foo = new Foo3();
+    foo.Internal = false;
     // make sure it won't explode
     foo.Do();
   }
