@@ -42,6 +42,8 @@ public class AboutClasses : Koan
   {
     // Try to assign visible class members
     var foo = new Foo2();
+    foo.Int = 1;
+    foo._str = "Bar";
     Assert.Equal(1, foo.Int);
     Assert.Equal("Bar", foo._str);
   }
