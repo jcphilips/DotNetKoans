@@ -85,7 +85,7 @@ public class AboutDecimals : Koan
     var d = 0.1m;
     var result = d + d + d + d + d + d + d;
 
-    Assert.False(result == 0.7m);
+    Assert.False(result != 0.7m);
 
     //The zen of the decimal is quite exceptional indeed. Unlike
     //floats, they are able to handle math the way humans expect. 
