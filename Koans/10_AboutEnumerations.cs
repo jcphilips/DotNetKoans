@@ -78,7 +78,7 @@ public class AboutEnumerations : Koan
 		and increase by one.
 		*/
     var quietForm = (MeditationForms)1;
-    Assert.Equal(FILL_ME_IN, quietForm);
+    Assert.Equal(MeditationForms.SilentIllumination, quietForm);
 
     /*
 		Why would casting integers to enums be valuable? You may want to
