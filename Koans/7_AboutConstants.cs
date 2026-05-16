@@ -91,7 +91,7 @@ public class AboutConstants : Koan
     //If a Reptile is an Animal, zen is achieved
     //when you realize they too will have legs.
     var reptile = new Reptile();
-    Assert.Equal(FILL_ME_IN, reptile.LegsInReptile());
+    Assert.Equal(4, reptile.LegsInReptile());
   }
 
   class MyAnimals
