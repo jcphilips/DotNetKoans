@@ -39,20 +39,20 @@ public class AboutNull : Koan
   public void CheckingThatAnObjectIsNull()
   {
     object obj = null;
-    Assert.True(obj == FILL_ME_IN);
+    Assert.True(obj == null);
   }
 
   [Step(4)]
   public void ABetterWayToCheckThatAnObjectIsNull()
   {
     object obj = null;
-    Assert.Null(FILL_ME_IN);
+    Assert.Null(obj);
   }
 
   [Step(5)]
   public void AWayNotToCheckThatAnObjectIsNull()
   {
     object obj = null;
-    Assert.True(obj.Equals(null));
+    Assert.Throws(typeof(System.NullReferenceException), delegate () { obj.Equals(null); });
   }
 }
