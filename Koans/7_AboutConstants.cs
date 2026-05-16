@@ -19,8 +19,8 @@ public class AboutConstants : Koan
     //code, you will not achieve zen when attempting
     //to change them after definition.
     const int days = 365;
-    //days = days + 1; //
-    Assert.Equal(FILL_ME_IN, 365);
+    // days = days + 1; //
+    Assert.Equal(days, 365);
   }
 
   [Step(3)]
