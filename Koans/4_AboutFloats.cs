@@ -1,6 +1,7 @@
 using System.Globalization;
 using Xunit;
 using DotNetKoans.Engine;
+using System;
 
 namespace DotNetKoans.Koans;
 
@@ -45,7 +46,7 @@ public class AboutFloats : Koan
     var result = 1 * 2f; //One's an integer, one's a float (even though it's a whole number)!
 
     //what will the result type be?
-    Assert.Equal(typeof(FillMeIn), result.GetType());
+    Assert.Equal(typeof(Single), result.GetType());
 
     //.NET kindly stores the result of the math in a float
     //so you don't lose the extra information in your floating point value
