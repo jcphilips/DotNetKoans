@@ -25,7 +25,7 @@ public class AboutDecimals : Koan
 
     var result = d + n;
 
-    Assert.Equal(FILL_ME_IN, result);
+    Assert.Equal(12.2m, result);
 
     // Notice that the result is a decimal when you do this
   }
