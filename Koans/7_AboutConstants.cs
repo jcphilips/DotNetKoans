@@ -72,7 +72,7 @@ public class AboutConstants : Koan
   public void NestedClassesInheritConstantsFromEnclosingClasses()
   {
     var nestedAnimal = new Animal.NestedAnimal();
-    Assert.Equal(FILL_ME_IN, nestedAnimal.LegsInNestedAnimal());
+    Assert.Equal(4, nestedAnimal.LegsInNestedAnimal());
 
     //QUESTION: Do nested classes inherit their parent's scope?
   }
