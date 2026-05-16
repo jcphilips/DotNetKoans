@@ -29,9 +29,9 @@ public class AboutConstants : Koan
     //You can achieve zen (and save keystrokes) by defining
     //constants of the same type as one.
     const int months = 12, weeks = 52, days = 365;
-    Assert.Equal(typeof(FillMeIn), months.GetType());
-    Assert.Equal(typeof(FillMeIn), weeks.GetType());
-    Assert.Equal(typeof(FillMeIn), days.GetType());
+    Assert.Equal(typeof(int), months.GetType());
+    Assert.Equal(typeof(int), weeks.GetType());
+    Assert.Equal(typeof(int), days.GetType());
   }
 
   [Step(4)]
