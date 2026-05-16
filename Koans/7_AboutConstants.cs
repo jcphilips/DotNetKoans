@@ -43,8 +43,8 @@ public class AboutConstants : Koan
 
     const double daysPerWeek = (double)days / (double)weeks;
     const double daysPerMonth = (double)days / (double)months;
-    Assert.Equal(FILL_ME_IN, daysPerWeek);
-    Assert.Equal(FILL_ME_IN, daysPerMonth);
+    Assert.Equal((double)days / (double)weeks, daysPerWeek);
+    Assert.Equal((double)days / (double)months, daysPerMonth);
 
     //Constants can be used in arithmetic to set other constant values.
     //They can also initialize each other.
