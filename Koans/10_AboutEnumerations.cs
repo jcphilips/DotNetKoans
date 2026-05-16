@@ -20,7 +20,8 @@ public class AboutEnumerations : Koan
   {
     Mindfulness,
     SilentIllumination,
-    Contemplation
+    Contemplation,
+    Observation
   }
 
   enum LogLevel
