@@ -55,8 +55,8 @@ public class AboutFloats : Koan
   [Step(5)]
   public void FloatsHaveLimitedMaximumAndMinimumValues()
   {
-    Assert.Equal(FILL_ME_IN, 3.40282347E+38f);
-    Assert.Equal(FILL_ME_IN, -3.40282347E+38f);
+    Assert.Equal(float.MaxValue, 3.40282347E+38f);
+    Assert.Equal(float.MinValue, -3.40282347E+38f);
   }
 
   [Step(6)]
