@@ -57,9 +57,10 @@ public class AboutDictionary : Koan
     dict.Add("United Kingdom", "London");
     dict.Add("Poland", "Warsaw");
     dict.Add("Japan", "Tokyo");
+    dict.Add("Legolas", "Archer");
 
     var val = "Archer";
-    Assert.True(true, dict.ContainsValue(val).ToString()); // How to make this statement true?          
+    Assert.True("True" == dict.ContainsValue(val).ToString()); // How to make this statement true?          
   }
 
   //Update the value of a key in dictionary.
