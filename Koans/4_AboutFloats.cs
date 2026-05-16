@@ -64,7 +64,7 @@ public class AboutFloats : Koan
   {
     // If you try to store a number larger than the maximum number a float can store, it will become Infinity or -Infinity
     var largerThanMaximumFloatValue = float.Parse("3.5E+38", CultureInfo.InvariantCulture);
-    Assert.True(FILL_ME_IN);
+    Assert.True(largerThanMaximumFloatValue == float.PositiveInfinity || largerThanMaximumFloatValue == float.NegativeInfinity);
   }
 
   [Step(7)]
