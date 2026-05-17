@@ -97,7 +97,7 @@ public class AboutClasses : Koan
     public int Val { get; }
     public Foo5(int val = 0) => Val = val;
     public Foo5 Self() =>
-      throw new InvalidOperationException(nameof(Self));
+      this;
 
     public override string ToString()
     {
