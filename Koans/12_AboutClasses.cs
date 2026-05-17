@@ -101,7 +101,7 @@ public class AboutClasses : Koan
 
     public override string ToString()
     {
-      return base.ToString();
+      return nameof(Foo5);
     }
 
     public override bool Equals(object obj)
