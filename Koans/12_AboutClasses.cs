@@ -106,7 +106,11 @@ public class AboutClasses : Koan
 
     public override bool Equals(object obj)
     {
-      return base.Equals(obj);
+      if (obj is null || obj is not Foo5 other)
+      {
+        return false;
+      }
+      return Val == other.Val;
     }
 
     public override int GetHashCode()
