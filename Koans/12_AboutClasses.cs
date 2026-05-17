@@ -89,7 +89,7 @@ public class AboutClasses : Koan
   {
     Foo4 foo1 = new Foo4();
     Foo4 foo2 = new Foo4();
-    Assert.NotEqual(foo1.Bar, foo2.Bar);
+    Assert.Equal(foo1.Bar, foo2.Bar);
   }
 
   class Foo5
