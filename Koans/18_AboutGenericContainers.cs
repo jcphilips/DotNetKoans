@@ -215,9 +215,9 @@ public class AboutGenericContainers : Koan
   {
     //Dictionary<TKey, TValue> is .NET's key value store. The key and the value do not need to be the same types.
     Dictionary<int, string> dictionary = new Dictionary<int, string>();
-    Assert.Equal(FILL_ME_IN, dictionary.Count);
+    Assert.Equal(0, dictionary.Count);
     dictionary[1] = "one";
-    Assert.Equal(FILL_ME_IN, dictionary.Count);
+    Assert.Equal(1, dictionary.Count);
   }
 
   [Step(20)]
