@@ -49,7 +49,7 @@ public class AboutIteration : Koan
       lastAnimal = animals[i];
       if (animals[i] == "Dogs")
       {
-        //FILL_ME_IN
+        break;
       }
     }
 
