@@ -332,6 +332,6 @@ public class AboutDelegates : Koan
 
     var result = Array.ConvertAll(numbers, c);
 
-    Assert.Equal(FILL_ME_IN, result);
+    Assert.Equal(new string[] { "1", "2", "3", "4" }, result);
   }
 }
