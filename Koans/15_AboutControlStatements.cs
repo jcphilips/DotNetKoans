@@ -55,7 +55,7 @@ public class AboutControlStatements : Koan
     if (true)
       b = true;
 
-    Assert.Equal(FILL_ME_IN, b);
+    Assert.Equal(true, b);
   }
 
   [Step(5)]
