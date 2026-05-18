@@ -41,7 +41,7 @@ public class AboutDelegates : Koan
   {
     MyMath math = new MyMath();
     BinaryOp op = new BinaryOp(math.Add);
-    Assert.Equal(FILL_ME_IN, op.GetMethodInfo().Name);
+    Assert.Equal("Add", op.GetMethodInfo().Name);
   }
   [Step(3)]
   public void DelegatesCanBeAssigned()
