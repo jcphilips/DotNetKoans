@@ -130,7 +130,7 @@ public class AboutGenericContainers : Koan
   {
     //Just as with array, you can use the subscript notation to access any element in a list.
     List<int> list = new List<int> { 5, 6, 7 };
-    Assert.Equal(FILL_ME_IN, list[2]);
+    Assert.Equal(7, list[2]);
   }
 
   [Step(11)]
