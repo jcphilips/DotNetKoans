@@ -166,7 +166,7 @@ public class AboutDelegates : Koan
   {
     // Because the delegate is a template, it also works with any other type. 
     Action<string> s = AssertStringEqualsFortyTwo;
-    s((string)FILL_ME_IN);
+    s((string)"42");
   }
   [Step(14)]
   public void BuiltInActionDelegateIsOverloaded()
