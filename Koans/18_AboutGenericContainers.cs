@@ -168,15 +168,15 @@ public class AboutGenericContainers : Koan
   public void StackPushPop()
   {
     var stack = new Stack<int>();
-    Assert.Equal(FILL_ME_IN, stack.Count);
+    Assert.Equal(0, stack.Count);
 
     stack.Push(42);
-    Assert.Equal(FILL_ME_IN, stack.Count);
+    Assert.Equal(1, stack.Count);
 
     int x = stack.Pop();
-    Assert.Equal(FILL_ME_IN, x);
+    Assert.Equal(42, x);
 
-    Assert.Equal(FILL_ME_IN, stack.Count);
+    Assert.Equal(0, stack.Count);
   }
 
   [Step(16)]
