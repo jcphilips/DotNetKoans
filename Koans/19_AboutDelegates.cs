@@ -132,6 +132,7 @@ public class AboutDelegates : Koan
     adding += f.Add10;
     Assert.Equal(2, adding.GetInvocationList().Length);
     //Remove Add5 from the invocation list
+    adding -= f.Add5;
     Assert.Equal(1, adding.GetInvocationList().Length);
     Assert.Equal("Add10", adding.GetMethodInfo().Name);
   }
