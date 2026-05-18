@@ -165,7 +165,7 @@ public class AboutControlStatements : Koan
       if ((i % 2) == 0) { continue; }
       result.Add(i);
     }
-    Assert.Equal(FILL_ME_IN, result);
+    Assert.Equal(new List<int> { 1, 3, 5, 7, 9 }, result);
   }
 
   [Step(13)]
