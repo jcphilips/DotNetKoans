@@ -70,8 +70,8 @@ public class AboutControlStatements : Koan
       b1 = true;
     b2 = true;
 
-    Assert.Equal(FILL_ME_IN, b1);
-    Assert.Equal(FILL_ME_IN, b2);
+    Assert.Equal(false, b1);
+    Assert.Equal(true, b2);
   }
 
   [Step(6)]
