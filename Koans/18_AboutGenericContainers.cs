@@ -26,7 +26,7 @@ public class AboutGenericContainers : Koan
   {
     ArrayList list = new ArrayList();
     System.Reflection.MethodInfo method = list.GetType().GetMethod("Add");
-    Assert.Equal(typeof(FillMeIn), method.GetParameters()[0].ParameterType);
+    Assert.Equal(typeof(object), method.GetParameters()[0].ParameterType);
   }
 
   [Step(3)]
