@@ -153,7 +153,7 @@ public class AboutGenericContainers : Koan
   {
     List<int> list = new List<int> { 1, 2, 3 };
     list.Insert(1, 6);
-    Assert.Equal(FILL_ME_IN, list.ToArray());
+    Assert.Equal(new int[] { 1, 6, 2, 3 }, list.ToArray());
   }
 
   [Step(14)]
