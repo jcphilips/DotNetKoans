@@ -110,7 +110,7 @@ public class AboutMethods : Koan
   [Step(7)]
   public void CallingStaticMethodsWithoutAnInstance()
   {
-    Assert.Equal(FILL_ME_IN, InnerSecret.Key());
+    Assert.Equal("Key", InnerSecret.Key());
   }
 
   //In fact, you can't call it on an instance variable
