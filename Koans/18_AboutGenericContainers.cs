@@ -236,7 +236,7 @@ public class AboutGenericContainers : Koan
   {
     Dictionary<string, string> dictionary = new Dictionary<string, string>();
     dictionary["one"] = "uno";
-    Assert.Throws(typeof(FillMeIn), delegate () { string s = dictionary["two"]; });
+    Assert.Throws(typeof(KeyNotFoundException), delegate () { string s = dictionary["two"]; });
   }
 
   [Step(22)]
