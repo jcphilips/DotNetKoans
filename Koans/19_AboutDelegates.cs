@@ -54,7 +54,7 @@ public class AboutDelegates : Koan
   public void DelegatesCanReferenceStaticMethods()
   {
     BinaryOp op = MyMath.Subtract;
-    Assert.Equal(FILL_ME_IN, op.GetMethodInfo().Name);
+    Assert.Equal("Subtract", op.GetMethodInfo().Name);
   }
   [Step(5)]
   public void MethodsCalledViaDelegate()
