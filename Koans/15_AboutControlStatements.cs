@@ -176,7 +176,7 @@ public class AboutControlStatements : Koan
     {
       list[i] = (list[i].ToUpper());
     }
-    Assert.Equal(FILL_ME_IN, list);
+    Assert.Equal(new List<string> { "FISH", "AND", "CHIPS" }, list);
   }
 
   [Step(14)]
