@@ -151,7 +151,7 @@ public class AboutControlStatements : Koan
       result = result + i;
       i += 1;
     }
-    Assert.Equal(FILL_ME_IN, result);
+    Assert.Equal(7, result);
   }
 
   [Step(12)]
