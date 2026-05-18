@@ -1,5 +1,6 @@
 using Xunit;
 using DotNetKoans.Engine;
+using System;
 
 namespace DotNetKoans.Koans;
 
@@ -63,7 +64,7 @@ public class AboutInheritance : Koan
   [Step(2)]
   public void AllClassesUltimatelyInheritFromAnObject()
   {
-    Assert.True(typeof(FillMeIn).IsAssignableFrom(typeof(Chihuahua)));
+    Assert.True(typeof(Object).IsAssignableFrom(typeof(Chihuahua)));
   }
 
   [Step(3)]
