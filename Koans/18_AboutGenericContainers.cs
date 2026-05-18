@@ -113,7 +113,7 @@ public class AboutGenericContainers : Koan
   {
     //Like array you can create a list with an initial set of values easily
     var list = new List<int> { 1, 2, 3 };
-    Assert.Equal(FILL_ME_IN, list.Count);
+    Assert.Equal(3, list.Count);
   }
 
   [Step(9)]
