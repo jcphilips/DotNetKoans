@@ -75,7 +75,7 @@ public class AboutMethods : Koan
   [Step(5)]
   public void LocalMethodsWithVariableParams()
   {
-    Assert.Equal(FILL_ME_IN, this.LocalMethodWithVariableParameters("Cory", "Will", "Corey"));
+    Assert.Equal(new string[] { "Cory", "Will", "Corey" }, this.LocalMethodWithVariableParameters("Cory", "Will", "Corey"));
   }
 
   //Note how we called the method by saying "this.LocalMethodWithVariableParameters"
