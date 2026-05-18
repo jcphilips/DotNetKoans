@@ -90,7 +90,7 @@ public class AboutDelegates : Koan
     Assert.Same(a, original);
     a = MyMath.Subtract;
     //a is now a different instance
-    Assert.Same(a, original);
+    Assert.NotSame(a, original);
   }
   delegate int Curry(int val);
   public class FunctionalTricks
