@@ -122,7 +122,7 @@ public class AboutExceptions : Koan
       IKnowNothingAboutExceptions = false;
     }
 
-    Assert.Equal(FILL_ME_IN, IKnowNothingAboutExceptions);
+    Assert.Equal(false, IKnowNothingAboutExceptions);
   }
 
   // This is how we defined our own custom exception. 
