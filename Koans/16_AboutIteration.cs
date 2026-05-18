@@ -69,7 +69,7 @@ public class AboutIteration : Koan
     {
       if (colors[i] == "Blue")
       {
-        //FILL_ME_IN
+        continue;
       }
       new_colors.Add(colors[i]);
     }
