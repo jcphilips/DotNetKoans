@@ -292,8 +292,8 @@ public class AboutGenericContainers : Koan
   {
     //Although it is not common, you can initialize a dictionary...
     var dictionary = new Dictionary<string, string> { { "one", "uno" }, { "two", "dos" } };
-    Assert.Equal(FILL_ME_IN, dictionary["one"]);
-    Assert.Equal(FILL_ME_IN, dictionary["two"]);
+    Assert.Equal("uno", dictionary["one"]);
+    Assert.Equal("dos", dictionary["two"]);
   }
 
   [Step(26)]
