@@ -45,7 +45,7 @@ public class AboutMethods : Koan
   [Step(2)]
   public void ExtensionMethodsWithParameters()
   {
-    Assert.Equal(FILL_ME_IN, this.SayHello("Cory"));
+    Assert.Equal("Hello, Cory!", this.SayHello("Cory"));
   }
 
   [Step(3)]
