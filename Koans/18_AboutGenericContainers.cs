@@ -271,7 +271,7 @@ public class AboutGenericContainers : Koan
     {
       result = "dos";
     }
-    Assert.Equal(FILL_ME_IN, result);
+    Assert.Equal("dos", result);
   }
 
   [Step(24)]
