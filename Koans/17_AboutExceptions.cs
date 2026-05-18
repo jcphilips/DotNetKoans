@@ -53,7 +53,7 @@ public class AboutExceptions : Koan
       status = exceptionObject.Message;
     }
 
-    Assert.Equal(FILL_ME_IN, status);
+    Assert.Equal("Ohm", status);
 
   }
 
