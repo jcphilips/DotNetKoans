@@ -205,7 +205,7 @@ public class AboutControlStatements : Koan
     }
     catch (Exception ex)
     {
-      Assert.Equal(typeof(FillMeIn), ex.GetType());
+      Assert.Equal(typeof(InvalidOperationException), ex.GetType());
     }
   }
 
