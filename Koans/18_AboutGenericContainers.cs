@@ -37,7 +37,7 @@ public class AboutGenericContainers : Koan
     ArrayList list = new ArrayList();
     list.Add(42);
     int x = 0;
-    //x = (int)list[0];
+    x = (int)list[0];
     Assert.Equal(42, x);
   }
 
