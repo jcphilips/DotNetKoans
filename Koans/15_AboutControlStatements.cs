@@ -89,8 +89,8 @@ public class AboutControlStatements : Koan
     //i = null; //You can't do this
 
     int? nullableInt = null; //but you can do this
-    Assert.NotNull(FILL_ME_IN);
-    Assert.Null(FILL_ME_IN);
+    Assert.NotNull(i);
+    Assert.Null(nullableInt);
   }
 
   [Step(8)]
