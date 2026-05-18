@@ -254,7 +254,7 @@ public class AboutDelegates : Koan
     //Predicate can also be used when verifying 
     var countries = new[] { "Greece", "Spain", "Uruguay", "Japan" };
 
-    Assert.Equal(FILL_ME_IN, Array.TrueForAll(countries, IsInSouthAmerica));
+    Assert.Equal(false, Array.TrueForAll(countries, IsInSouthAmerica));
   }
 
   private string FirstMonth()
