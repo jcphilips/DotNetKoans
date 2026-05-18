@@ -206,8 +206,8 @@ public class AboutGenericContainers : Koan
     Queue<string> queue = new Queue<string>();
     queue.Enqueue("one");
     queue.Enqueue("two");
-    Assert.Equal(FILL_ME_IN, queue.Dequeue());
-    Assert.Equal(FILL_ME_IN, queue.Count);
+    Assert.Equal("one", queue.Dequeue());
+    Assert.Equal(1, queue.Count);
   }
 
   [Step(19)]
