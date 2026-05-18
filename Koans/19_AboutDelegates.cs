@@ -159,7 +159,7 @@ public class AboutDelegates : Koan
     //  public delegate void Action<T>(T obj);
 
     Action<int> i = AssertIntEqualsFortyTwo;
-    i((int)FILL_ME_IN);
+    i((int)42);
   }
   [Step(13)]
   public void BuiltInActionDelegateTakesString()
