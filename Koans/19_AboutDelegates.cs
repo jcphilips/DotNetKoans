@@ -215,7 +215,7 @@ public class AboutDelegates : Koan
     //Predicate allows you to codify a condition and pass it around. 
     //You use it to determine if an object satisfies some criteria. 
 
-    Predicate<int> i = (Predicate<int>)FILL_ME_IN;
+    Predicate<int> i = (Predicate<int>)IntEqualsFortyTwo;
     Assert.True(i(42));
   }
   [Step(17)]
