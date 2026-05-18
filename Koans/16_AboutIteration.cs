@@ -124,7 +124,7 @@ public class AboutIteration : Koan
 
     string lastShark = "";
 
-    foreach (var shark in FILL_ME_IN)
+    foreach (var shark in sharkSpecies)
     {
       lastShark = shark;
     }
