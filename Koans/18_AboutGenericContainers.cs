@@ -138,7 +138,7 @@ public class AboutGenericContainers : Koan
   {
     List<int> list = new List<int> { 1, 2, 3 };
     //You cannot attempt to get data that doesn't exist
-    Assert.Throws(typeof(FillMeIn), delegate () { int x = list[3]; });
+    Assert.Throws(typeof(ArgumentOutOfRangeException), delegate () { int x = list[3]; });
   }
 
   [Step(12)]
