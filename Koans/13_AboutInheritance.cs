@@ -172,6 +172,6 @@ public class AboutInheritance : Koan
   public void YouCanCallBaseEvenFromOtherMethods()
   {
     var george = new GreatDane("George");
-    Assert.Equal(FILL_ME_IN, george.Growl());
+    Assert.Equal("WOOF, GROWL", george.Growl());
   }
 }
