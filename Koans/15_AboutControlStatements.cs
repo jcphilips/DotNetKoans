@@ -100,7 +100,7 @@ public class AboutControlStatements : Koan
 
     int x = nullableInt ?? 42;
 
-    Assert.Equal(FILL_ME_IN, x);
+    Assert.Equal(42, x);
   }
 
   [Step(9)]
