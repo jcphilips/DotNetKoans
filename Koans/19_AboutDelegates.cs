@@ -61,7 +61,7 @@ public class AboutDelegates : Koan
   {
     MyMath math = new MyMath();
     BinaryOp op = math.Add;
-    Assert.Equal(FILL_ME_IN, op(3, 3));
+    Assert.Equal(6, op(3, 3));
   }
   private void PassMeTheDelegate(BinaryOp passed)
   {
