@@ -167,8 +167,8 @@ public class AboutMethods : Koan
   [Step(11)]
   public void CallingGenericMethods()
   {
-    Assert.Equal(typeof(FillMeIn), GiveMeBack<int>(1).GetType());
+    Assert.Equal(typeof(int), GiveMeBack<int>(1).GetType());
 
-    Assert.Equal(FILL_ME_IN, GiveMeBack<string>("Hi!"));
+    Assert.Equal("Hi!", GiveMeBack<string>("Hi!"));
   }
 }
