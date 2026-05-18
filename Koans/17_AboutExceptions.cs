@@ -98,7 +98,7 @@ public class AboutExceptions : Koan
       myCurrentState = states[2];
     }
 
-    Assert.Equal(FILL_ME_IN, myCurrentState);
+    Assert.Equal("Gaining Awareness", myCurrentState);
   }
 
   [Step(6)]
