@@ -84,7 +84,7 @@ public class AboutMethods : Koan
   [Step(6)]
   public void LocalMethodsWithoutExplicitReceiver()
   {
-    Assert.Equal(FILL_ME_IN, LocalMethodWithVariableParameters("Cory", "Will", "Corey"));
+    Assert.Equal(new string[] { "Cory", "Will", "Corey" }, LocalMethodWithVariableParameters("Cory", "Will", "Corey"));
   }
 
   //But it is required for Extension Methods, since it needs
