@@ -173,7 +173,7 @@ public class AboutDelegates : Koan
   {
     //Action is an overloaded delegate so it can take more than one parameter
     Action<int, string> a = AssertAddEqualsFortyTwo;
-    a(12, (string)FILL_ME_IN);
+    a(12, (string)"30");
   }
   public class Seen
   {
