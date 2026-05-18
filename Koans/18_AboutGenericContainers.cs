@@ -83,10 +83,10 @@ public class AboutGenericContainers : Koan
     //The "T" in the definition of List<T> is the type argument. You cannot declare an instance of List<T> without also
     //supplying a type in place of T.
     var list = new List<int>();
-    Assert.Equal(FILL_ME_IN, list.Count);
+    Assert.Equal(0, list.Count);
 
     list.Add(42);
-    Assert.Equal(FILL_ME_IN, list.Count);
+    Assert.Equal(1, list.Count);
 
     //Now just like int[], you can have a type safe dynamic sized container
     //list.Add("forty two"); //<--Unlike ArrayList this is illegal.
