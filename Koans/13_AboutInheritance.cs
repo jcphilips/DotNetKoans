@@ -71,7 +71,7 @@ public class AboutInheritance : Koan
   public void SubclassesInheritBehaviorFromParentClass()
   {
     var chico = new Chihuahua("Chico");
-    Assert.Equal(FILL_ME_IN, chico.Name);
+    Assert.Equal(new Dog("Chico").Name, chico.Name);
   }
 
   [Step(4)]
