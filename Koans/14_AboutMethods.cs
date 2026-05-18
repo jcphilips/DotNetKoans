@@ -123,7 +123,7 @@ public class AboutMethods : Koan
   public void CallingPublicMethodsOnAnInstance()
   {
     InnerSecret secret = new InnerSecret();
-    Assert.Equal(FILL_ME_IN, secret.Secret());
+    Assert.Equal("Secret", secret.Secret());
   }
 
   //Protected methods can only be called by a subclass
