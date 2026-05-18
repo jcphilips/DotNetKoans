@@ -303,7 +303,7 @@ public class AboutGenericContainers : Koan
     dictionary["one"] = "uno";
     dictionary["two"] = "dos";
     dictionary["one"] = "ein";
-    Assert.Equal(FILL_ME_IN, dictionary["one"]);
+    Assert.Equal("ein", dictionary["one"]);
   }
 
   [Step(27)]
