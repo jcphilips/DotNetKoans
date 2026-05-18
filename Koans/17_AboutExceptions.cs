@@ -77,7 +77,7 @@ public class AboutExceptions : Koan
       Console.WriteLine("Our program had an error, your karma was not saved. Sorry man");
     }
 
-    Assert.Equal(FILL_ME_IN, KarmaIsSaved);
+    Assert.Equal(false, KarmaIsSaved);
   }
 
   [Step(5)]
