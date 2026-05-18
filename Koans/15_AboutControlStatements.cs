@@ -32,7 +32,7 @@ public class AboutControlStatements : Koan
     else
       b = false;
 
-    Assert.Equal(FILL_ME_IN, b);
+    Assert.Equal(true, b);
 
   }
 
