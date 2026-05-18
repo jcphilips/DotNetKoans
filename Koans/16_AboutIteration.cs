@@ -96,7 +96,7 @@ public class AboutIteration : Koan
     // Let's do it backwards, just for fun
 
     int i = 2;
-    while (FILL_ME_IN)
+    while (i >= 0)
     {
       sum += numbers[i];
       i--;
